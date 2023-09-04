@@ -42,8 +42,9 @@ dependencies {
 
 sonar {
 	properties {
-		property "sonar.projectKey", "ar.edu.unq.crypto-p2p"
-		property "sonar.projectName", "ar.edu.unq.crypto-p2p"
+		property "sonar.projectKey", "cryptop2pkey_ar-edu-unq-crypto-p2p"
+		property "sonar.organization", "cryptop2pkey"
+		property "sonar.host.url", "https://sonarcloud.io"
 	}
 }
 
